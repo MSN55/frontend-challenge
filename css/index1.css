@@ -1,0 +1,167 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:   "Hanken Grotesk", sans-serif;
+}
+
+.back{
+    height: 800px;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(241, 100%, 89%);
+}
+.container{
+    border-radius: 40px;
+    
+    height: 550px;
+    width: 800px;
+    background-color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: hsl(241, 100%, 89%);
+    font-weight: 500;
+
+    
+}
+
+.container .work{
+    padding: 30px;
+    width:310px ;
+    height: 100%;
+    background-image: linear-gradient(to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+    );
+    border-radius: 40px;
+    text-align: center;
+
+}
+
+.container .work .grade{
+  
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0));
+    margin: 20px 5px 0 40px;
+    line-height: 3;
+    position: relative;
+
+}
+.work .grade .mark{
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+
+    
+}
+.grade .outof{
+    position: absolute;
+    bottom:30px;
+    left: 55px;
+}
+.notes .great{
+    color: white;
+    font-size: 25px;
+    margin: 25px;
+    font-weight: 700;
+}
+.notes .note{
+    width: 250px;
+    font-weight: 500;
+    margin-top: 30px;
+
+}
+/* ------------------- */
+.dash{
+    border-radius: 40px;
+    width: 60%;
+    background-color: white;
+    height: 100%;
+    padding: 15px;
+    margin-left: 30px;
+    
+}
+.dash .bars{
+    
+    margin-top: 30px;
+   display:grid;
+   justify-content: space-evenly;
+   gap: 20px;
+   grid-template-columns: 1fr;
+   grid-template-rows: repeat(5,1fr);
+}
+.dash .bars div{
+    font-size: 25px;
+
+    height: 60px;
+    border-radius: 10px;
+    line-height: 2.5;
+    padding-left: 10px;
+
+}
+.sammary{
+    color:hsl(224, 30%, 27%) ;
+    font-size: 30px;
+}
+
+.Reaction {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(0, 100%, 67%,0.1);
+}
+
+.Reaction .text{
+    color: hsl(0, 100%, 67%);
+
+}
+.memory {
+    background-color: hsl(39, 100%, 56%,0.1);
+    color: hsl(39, 100%, 56%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.verbal{
+    background-color:  hsl(166, 100%, 37%,0.1) ;
+    color:  hsl(166, 100%, 37%);
+    display: flex;
+    justify-content: space-between;
+}
+.visual{
+    background-color: hsl(234, 85%, 45%,0.1);
+    color: hsl(234, 85%, 45%);
+    display: flex;
+    justify-content: space-between;
+}
+.bottom{
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    background-color:  hsl(224, 30%, 27%);
+    border-radius: 30px !important;
+    
+}
+
+
+.reat{
+    margin-right: 10px;
+    color:hsl(224, 30%, 27%) ;
+}
+.reat span{
+    color: hsl(224, 30%, 27% ,0.5);
+}
